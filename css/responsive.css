@@ -1,0 +1,18 @@
+@media(max-width:1024px){.g4,.sg{grid-template-columns:1fr 1fr}.pf,.pg{grid-template-columns:1fr 1fr}.fg{grid-template-columns:1fr 1fr}.flow.f5{grid-template-columns:repeat(3,1fr)}.flow.f5::before,.flow.f5::after{display:none}.hero-g{gap:1.2rem}.bt{grid-column:span 3}.bt.w4,.bt.w6{grid-column:span 6}}
+@media(max-width:860px){
+.bg{display:grid;place-items:center}.lk{position:absolute;top:64px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:var(--td);padding:.5rem 1.2rem 1.2rem;border-bottom:1px solid var(--cu);display:none}.lk.o{display:flex;animation:up .4s var(--e)}.lk a:not(.btn){padding:.8rem 0;border-bottom:1px solid rgba(189,128,91,.2)}.lk .btn{justify-content:center;margin-top:.8rem}
+.hero-g,.two,.ctg,.pm-in{grid-template-columns:1fr}.hc{height:300px;max-width:520px;width:100%;margin-inline:auto}.comp{height:330px;max-width:460px;margin-inline:auto;width:100%}.qs{max-width:460px;margin-inline:auto;width:100%}
+.flow{grid-template-columns:1fr 1fr;row-gap:1.1rem}.flow::before,.flow::after{display:none}.pm-in .im{min-height:240px}
+.ph-img{width:100%;opacity:.28;clip-path:none}.ph-ring{display:none}
+.g3{grid-template-columns:1fr 1fr}.ci{grid-template-columns:1fr 1fr}.cta-bg{font-size:4rem}}
+@media(max-width:560px){
+.g4,.g3,.g2,.pf,.fr,.sg,.ci,.fg,.flow,.flow.f5{grid-template-columns:1fr}.pg{grid-template-columns:1fr}
+.fg{grid-template-columns:1fr 1fr}.fg>div:first-child,.fg>div:last-child{grid-column:1/-1}
+.hero{padding-top:5.4rem}.hero .row .btn{flex:1;justify-content:center}.chip.c1{display:none}.hc{height:270px}.bt,.bt.w4,.bt.w6{grid-column:span 6;min-height:270px}.cta-in .cta-act,.cta-in .btn{width:100%}.cta-in .btn{justify-content:center}.hd{align-items:flex-start}.comp{height:300px}.bdg{width:84px;height:84px;font-size:1.4rem}.fbm{flex-direction:column}.fm{padding:1.1rem}.mapw{min-height:260px}.ph{padding-top:5.2rem}}
+@media(hover:none){.pc .nmv{opacity:1;background:linear-gradient(0deg,rgba(11,37,39,.88),transparent 55%);place-items:end start;text-align:left}.pc .nmv h3{transform:none}.pc .ct{opacity:1}.ld .so2 a{opacity:1;translate:none}}
+
+@media(max-width:860px){.fs::before,.fs::after{display:none!important}}
+@media(max-width:1024px){.flow.f5 .fs::before,.flow.f5 .fs::after{display:none!important}}
+/* v3 mobile polish: compact cards, clearer hero photos */
+@media(max-width:860px){.ph-img{opacity:.4}.sec{padding:1.2rem 0}.g4,.g3,.g2,.flow{gap:.7rem}}
+@media(max-width:560px){.cd.s-shield{padding-bottom:1.5rem}.cd.s-tag{padding-right:1.2rem}.cd{padding:.9rem .95rem .85rem}.bt,.bt.w4,.bt.w6{min-height:0}.bt h3{margin-top:2.4rem}.hero{padding-bottom:1.2rem}.ph{min-height:170px}.flow{row-gap:.6rem}}
